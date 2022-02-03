@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "566043762586",
+    "firebase_url": "https://newdata-77d20-default-rtdb.firebaseio.com/",
+    "project_id": "newdata-77d20",
+    "storage_bucket": "newdata-77d20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566043762586:android:aaeb65fdb30ce41174e423",
+        "android_client_info": {
+          "package_name": "com.example.DogParks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566043762586-o91e0tfqifiq82bteuqtu9b1rvcen5fa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATaqgM_Cc4US7zc7tMztXjexGLOqGP7wY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "566043762586-o91e0tfqifiq82bteuqtu9b1rvcen5fa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
