@@ -226,12 +226,20 @@ public class Activity_Add extends Activity_MyBase  {
             }
             if (geoResults.size()>0) {
                     Address addr = geoResults.get(0);
-                     place.setLatitude(addr.getLatitude());
-                     place.setLongitude(addr.getLongitude());
-
-                    // place.setLatitude(latitude);
-                    // place.setLongitude(longitude);
-
+                //Log.d("-------0---------------",String.valueOf(addr.getLatitude()));
+                //Log.d("--------0--------------",String.valueOf(addr.getLongitude()));
+               // Log.d("-------1---------------",String.valueOf(longitude));
+               // Log.d("--------1--------------",String.valueOf(latitude));
+                    if(addr.getLatitude()!=0 && addr.getLongitude()!=0 ) {
+                        place.setLatitude(addr.getLatitude());
+                        place.setLongitude(addr.getLongitude());
+                    }
+                    else {
+                       // Log.d("-------1---------------",String.valueOf(longitude));
+                       // Log.d("--------1--------------",String.valueOf(latitude));
+                        place.setLatitude(latitude);
+                        place.setLongitude(longitude);
+                    }
 
                 }
             } catch (Exception e) {
