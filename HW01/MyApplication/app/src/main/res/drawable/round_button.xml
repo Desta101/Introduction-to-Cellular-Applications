@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- /**
+      * shimon Desta 203670286
+      * HW01 - Car Game
+      **/-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="#4CAF50" />
+    <corners android:radius="999999dp"/>
+</shape>
